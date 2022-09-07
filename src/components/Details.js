@@ -10,6 +10,13 @@ const Details = () => {
       <h1 className="title">
         {state.symbol}
       </h1>
+      <div>
+        <span>Price Change: {state.volume}</span>
+        <span>Ask price: {state.askPrice}</span>
+        <span>Price Change: {state.volume}</span>
+        <span>Price Change: {state.volume}</span>
+      </div>
+      
     </section>
   );
 };

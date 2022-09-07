@@ -38,9 +38,13 @@ export const cryptoThunk = createAsyncThunk(
           symbol: coin.symbol,
           priceChange: coin.priceChange,
           lastPrice: coin.lastPrice,
+          askPrice: coin.askPrice,
           bidPrice: coin.bidPrice,
           volume: coin.volume,
           count: coin.count,
+          highPrice: coin.highPrice,
+          openTime: coin.openTime,
+          closeTime: coin.closeTime,
         },
       );
       return coin;

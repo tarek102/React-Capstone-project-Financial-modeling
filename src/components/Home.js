@@ -17,9 +17,9 @@ const Home = () => {
 
   return (
     <section className="container">
-      <div className="wrapper">
+      <div className="row p-5">
           {crypt.map((coin) => (
-            <div className="currencies" key={coin.symbol} id={coin.id}>
+            <div className="currencies col-4" key={coin.symbol} id={coin.id}>
               <NavLink
               to="/details"
               state={coin}
