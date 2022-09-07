@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
   background-color: #fb5092;
 }
 
@@ -14,3 +17,24 @@
 nav h3 {
   color: white;
 }
+
+.arrow {
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.currencies {
+  background-color: #c02661;
+  margin-right: 15px;
+  border-radius: 20px;
+}
+
+.currencies h2 {
+  color: white;
+}
+
+/* .cryptos {
+  display: flex;
+  justify-content: center;
+} */

@@ -16,20 +16,24 @@ const Home = () => {
   }, []);
 
   return (
-    <section className="container">
-      <div className="row p-5">
+    <section className="wrapper">
+      <div className="row cryptos d-flex justify-content-center">
           {crypt.map((coin) => (
-            <div className="currencies col-4" key={coin.symbol} id={coin.id}>
-              <NavLink
+            <div className="currencies col-3 mb-5 p-4" key={coin.symbol} id={coin.id}>
+              <h2 className="mb-5">Name: {coin.symbol}</h2>
+              <div className="d-flex">
+              <div>
+                <span>Count: {coin.count}</span> <br></br>
+                <span>Price change: {coin.priceChange}</span><br></br>
+                <span>Last price: {coin.lastPrice}</span>
+              </div>
+              <NavLink className="align-self-center arrow"
               to="/details"
               state={coin}
             >
               <BsArrowRightCircle className="details" />
             </NavLink>
-              <h2>Name: {coin.symbol}</h2>
-              <span>Count: {coin.count}</span> <br></br>
-              <span>Price change: {coin.priceChange}</span><br></br>
-              <span>Last price: {coin.lastPrice}</span>
+              </div>
             </div>
           ))}
       </div>
