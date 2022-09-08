@@ -1,18 +1,17 @@
-import { createAsyncThunk } from "@reduxjs/toolkit";
+import { createAsyncThunk } from '@reduxjs/toolkit';
 
-const LOAD_CRYPTO = "FINANCIAL_MODELING/LOAD_CRYPTO";
+const LOAD_CRYPTO = 'FINANCIAL_MODELING/LOAD_CRYPTO';
 
 const init = {
   crypto: [],
   search: [],
 };
 
-const api = "https://api2.binance.com/api/v3/ticker/24hr";
-
+const api = 'https://api2.binance.com/api/v3/ticker/24hr';
 
 // Reducer
 
-const cryptoReducer = (state= init, action) => {
+const cryptoReducer = (state = init, action) => {
   switch (action.type) {
     case `${LOAD_CRYPTO}/fulfilled`:
       return {
@@ -26,7 +25,7 @@ const cryptoReducer = (state= init, action) => {
 
 export const cryptoThunk = createAsyncThunk(
   LOAD_CRYPTO,
-  async() => {
+  async () => {
     const data = await fetch(api);
     const res = await data.json();
     const filteredArr = res.slice(0, 30);

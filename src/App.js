@@ -8,11 +8,11 @@ import Home from './components/Home';
 function App() {
   return (
     <div className="App container">
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="details" element={<Details />} />
-        </Routes>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="details" element={<Details />} />
+      </Routes>
     </div>
   );
 }

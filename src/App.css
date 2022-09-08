@@ -8,7 +8,7 @@ body {
   background-color: #fb5092;
 }
 
-.nav-icons svg{
+.nav-icons svg {
   color: white;
   font-size: 20px;
   margin-right: 20px;
@@ -28,13 +28,33 @@ nav h3 {
   background-color: #c02661;
   margin-right: 15px;
   border-radius: 20px;
+  margin-top: 20px;
 }
 
-.currencies h2 {
+.currencies h2,
+.currencies span {
   color: white;
 }
 
-/* .cryptos {
+.details-card {
+  padding: 50px;
+  margin-top: 50px;
+  background-color: #c02661;
+  border-radius: 20px;
+}
+
+.title {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.details-card > div {
   display: flex;
-  justify-content: center;
-} */
+  flex-direction: column;
+  color: white;
+}
+
+.details {
+  font-size: 25px;
+  margin-bottom: 20px;
+}

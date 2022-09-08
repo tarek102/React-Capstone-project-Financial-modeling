@@ -1,22 +1,55 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
-
+import { useLocation, NavLink } from 'react-router-dom';
+import { BsArrowLeftCircle } from 'react-icons/bs';
 
 const Details = () => {
   const location = useLocation();
   const { state } = location;
   return (
-    <section className="my-container">
-      <h1 className="title">
+    <section className="container details-card">
+      <NavLink
+        className="align-self-center arrow"
+        to="/"
+      >
+        <BsArrowLeftCircle className="details" />
+      </NavLink>
+      <h2 className="title">
         {state.symbol}
-      </h1>
+      </h2>
       <div>
-        <span>Price Change: {state.volume}</span>
-        <span>Ask price: {state.askPrice}</span>
-        <span>Price Change: {state.volume}</span>
-        <span>Price Change: {state.volume}</span>
+        <span>
+          Volume:
+          {state.volume}
+        </span>
+        <span>
+          Ask price:
+          {state.askPrice}
+        </span>
+        <span>
+          Price change:
+          {state.priceChange}
+        </span>
+        <span>
+          Last price:
+          {state.lastPrice}
+        </span>
+        <span>
+          Count:
+          {state.count}
+        </span>
+        <span>
+          Bid price:
+          {state.bidPrice}
+        </span>
+        <span>
+          Open time:
+          {state.openTime}
+        </span>
+        <span>
+          Close time:
+          {state.closeTime}
+        </span>
       </div>
-      
     </section>
   );
 };

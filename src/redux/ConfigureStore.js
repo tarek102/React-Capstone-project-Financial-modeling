@@ -1,5 +1,5 @@
-import { configureStore } from "@reduxjs/toolkit";
-import cryptoReducer from "./crypto/cryptoReducer";
+import { configureStore } from '@reduxjs/toolkit';
+import cryptoReducer from './crypto/cryptoReducer';
 
 const store = configureStore({
   reducer: {
@@ -8,5 +8,3 @@ const store = configureStore({
 });
 
 export default store;
-
-
