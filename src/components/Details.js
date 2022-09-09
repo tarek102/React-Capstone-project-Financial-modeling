@@ -1,8 +1,10 @@
 import React from 'react';
-import { useLocation, NavLink } from 'react-router-dom';
+import { useLocation, NavLink, useParams } from 'react-router-dom';
 import { BsArrowLeftCircle } from 'react-icons/bs';
 
 const Details = () => {
+  const { id } = useParams();
+  console.log(id);
   const location = useLocation();
   const { state } = location;
   return (
