@@ -12,5 +12,4 @@ describe('test if Header matches snapshot', () => {
     );
     expect(tree).toMatchSnapshot();
   });
-})
-
+});

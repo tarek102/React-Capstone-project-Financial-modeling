@@ -7,7 +7,6 @@ const SearchResult = () => {
   const coins = useSelector((state) => state.crypto);
 
   const crypt = coins.search;
-  console.log(crypt);
   if (crypt.length === 0) {
     return (
       <p>Coin not found</p>

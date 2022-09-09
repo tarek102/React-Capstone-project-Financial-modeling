@@ -24,13 +24,11 @@ const Home = () => {
     }
 
     dispatch(searchCrypto(value.search));
-    // console.log(value.search);
     setValue({ search: '' });
   };
 
   const handleChange = (e) => {
     setValue({ search: e.target.value });
-    // console.log(value);
   };
 
   return (
