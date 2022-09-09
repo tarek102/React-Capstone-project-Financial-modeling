@@ -1,6 +1,5 @@
 import React from 'react';
-import { useLocation, NavLink, useParams } from 'react-router-dom';
-import { BsArrowLeftCircle } from 'react-icons/bs';
+import { useLocation, useParams } from 'react-router-dom';
 
 const Details = () => {
   const { id } = useParams();
@@ -9,12 +8,6 @@ const Details = () => {
   const { state } = location;
   return (
     <section className="container details-card">
-      <NavLink
-        className="align-self-center arrow"
-        to="/"
-      >
-        <BsArrowLeftCircle className="details" />
-      </NavLink>
       <h2 className="title">
         {state.symbol}
       </h2>
