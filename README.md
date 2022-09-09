@@ -11,6 +11,11 @@ In this project I have built a Crypto currency app, you can see the common curre
 - React
 - Redux
 
+## Live Demo
+[Live Demo](https://taupe-genie-b9016f.netlify.app/)
+
+## Loom Video
+[Video](https://www.loom.com/share/9daa1bf4c32a4b0592922403d65e6823)
 
 ## Getting Started
 
