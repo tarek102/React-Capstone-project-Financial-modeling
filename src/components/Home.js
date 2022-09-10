@@ -33,17 +33,20 @@ const Home = () => {
 
   return (
     <section className="wrapper d-flex flex-column align-items-center">
-      <SearchBar
-        handleSearch={handleSearch}
-        handleChange={handleChange}
-        searchValue={value.search}
-      />
+      <div className="hero">
+        <h2>Welcome to Crypto traders</h2>
+        <SearchBar
+          handleSearch={handleSearch}
+          handleChange={handleChange}
+          searchValue={value.search}
+        />
+      </div>
       <div className="row cryptos d-flex flex-row justify-content-center">
         {crypt.map((coin) => (
-          <div className="currencies d-flex flex-row justify-content-between align-items-center col-lg-3 col-md-6 col-sm-6 col-xs-6 p-4 " key={coin.symbol} id={coin.id}>
+          <div className="currencies d-flex flex-row justify-content-between align-items-center col-4 col-sm-12 p-4" key={coin.symbol} id={coin.id}>
             <h2 className="align-middle">{coin.symbol}</h2>
-            <div className="d-flex align-items-center ">
-              <div>
+            <div className="d-flex flex-column p-5 align-items-center ">
+              <div className="mb-2">
                 <span className="count-num">
                   Count:
                   {coin.count}

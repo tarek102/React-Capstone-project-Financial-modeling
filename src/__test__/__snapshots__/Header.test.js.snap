@@ -14,9 +14,6 @@ Object {
           <div
             class="logo"
           >
-            <h3>
-              Crypto currencies
-            </h3>
             <a
               aria-current="page"
               class="align-self-center arrow active"
@@ -24,20 +21,23 @@ Object {
             >
               <svg
                 class="details"
-                fill="currentColor"
+                fill="none"
                 height="1em"
                 stroke="currentColor"
                 stroke-width="0"
-                viewBox="0 0 16 16"
+                viewBox="0 0 24 24"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"
-                  fill-rule="evenodd"
+                  d="M16.2426 6.34317L14.8284 4.92896L7.75739 12L14.8285 19.0711L16.2427 17.6569L10.5858 12L16.2426 6.34317Z"
+                  fill="currentColor"
                 />
               </svg>
             </a>
+            <h3>
+              Crypto currencies
+            </h3>
           </div>
           <div
             class="nav-icons"
@@ -86,9 +86,6 @@ Object {
         <div
           class="logo"
         >
-          <h3>
-            Crypto currencies
-          </h3>
           <a
             aria-current="page"
             class="align-self-center arrow active"
@@ -96,20 +93,23 @@ Object {
           >
             <svg
               class="details"
-              fill="currentColor"
+              fill="none"
               height="1em"
               stroke="currentColor"
               stroke-width="0"
-              viewBox="0 0 16 16"
+              viewBox="0 0 24 24"
               width="1em"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"
-                fill-rule="evenodd"
+                d="M16.2426 6.34317L14.8284 4.92896L7.75739 12L14.8285 19.0711L16.2427 17.6569L10.5858 12L16.2426 6.34317Z"
+                fill="currentColor"
               />
             </svg>
           </a>
+          <h3>
+            Crypto currencies
+          </h3>
         </div>
         <div
           class="nav-icons"

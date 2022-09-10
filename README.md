@@ -61,7 +61,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to [etcNelson Sakwa](https://www.behance.net/sakwadesignstudio)  
+- Hat tip to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio)  
 
 ## 📝 License
 
