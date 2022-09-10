@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fb5092;
+  font-family: lato, sans-serif;
+}
+
+.nav-icons svg {
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+nav h3 {
+  color: white;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.arrow {
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.currencies {
+  width: 49%;
+  padding: 25px;
+}
+
+:root {
+  width: 100%;
+}
+
+.currencies > div > a {
+  font-size: 90%;
+}
+
+.currencies h2 {
+  margin-bottom: -4px;
+}
+
+.currencies h2,
+.currencies span {
+  color: white;
+  font-size: 90%;
+}
+
+.details-welcome {
+  background-color: #fb5092;
+  color: white;
+}
+
+.details-card {
+  padding: 50px 0;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  background-color: #c02661;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.title {
+  color: white;
+  margin-bottom: 25px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #c02661;
+  width: 100%;
+}
+
+.search-div {
+  margin-bottom: 50px;
+}
+
+.search-div input {
+  background-color: rgb(231, 225, 225);
+  border: none;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.search-div button {
+  border: none;
+  background-color: #c02661;
+  padding: 10px;
+}
+
+.currencies:nth-child(4n + 1) {
+  background: #fb5092;
+}
+
+.currencies:nth-child(4n - 2),
+.currencies:nth-child(4n - 1) {
+  background: #c02661;
+}
+
+.search-div button a {
+  color: white;
+}
+
+.details-card > div {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.details {
+  font-size: 25px;
+}
+
+.stripe {
+  width: 100%;
+}
+
+.stripe span {
+  padding: 20px;
+  text-align: center;
+}
+
+.stripe span:nth-child(2n + 1) {
+  background-color: #fb5092;
+}
+
+@media only screen and (max-width: 500px) {
+  .currencies {
+    flex-direction: column !important;
+  }
+}
