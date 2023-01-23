@@ -2,7 +2,7 @@
 
 # Crypto currencies
 
-In this project I have built a Crypto currency app, you can see the common currencies on the home page with some details about them, once you click on the arrow, it will take you to another page with all the information for the selected currency. All the data are fitched from binance Api.
+In this project, I created a Cryptocurrency app; you can see the common currencies on the home page with some details about them, and clicking on the arrow will take you to another page with all the information for the selected currency. All of the data is pulled from the Binance API.
 
 
 ## Built With
